@@ -1,0 +1,54 @@
+.background {
+  background: url("https://78.media.tumblr.com/0f3927f0017e84b9c6ec69901c5a825a/tumblr_n9lwm7N7VX1tz79vpo1_r1_1280.gif");
+  table-layout: fixed;
+  border-spacing: 0;
+}
+
+.background td {  padding: 0;}
+
+.lava { background: rgb(255, 100, 100);}
+
+.wall { background: white;}
+
+.floater {  background: #ffb2cd;}
+
+.health { background: url("Health.gif");
+          background-size: 20px 20px
+        }
+
+.portal { background: #9beeff;}
+
+.actor  { position: absolute;  }
+
+.coin   {
+  background-image: url("Star.gif");
+  background-size: 20px 20px;
+}
+
+.power  { background: url("Power-Up.png");
+          background-size: 20px 20px
+        }
+
+.player { background: url("Space-Cat.png");
+          background-size: 35px 45px;
+        }
+
+.game {
+  overflow: hidden;
+  max-width: 640px;
+  max-height: 480px;
+  position: relative;
+}
+
+.lost .player {
+  background: url("Space-Cat-Loss.png");
+  background-size: 35px 45px;
+}
+.won .player {
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.82);
+    box-shadow:
+      0 0 50px #fff,            /* outer white */
+      -10px 0 80px #f0f,        /* outer left magenta */
+      10px 0 80px #0ff;         /* outer right cyan */
+}
